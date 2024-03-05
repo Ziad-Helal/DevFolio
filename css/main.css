@@ -1,0 +1,1695 @@
+/*
+==============================
+  CONTENT
+==============================
+  01- Reset Styles
+    01.01- Body
+    01.02- Images
+  02- Animations
+    02.01- Switch Titles
+  03- Main Styles
+    03.01- Header
+    03.02- Main Content
+      03.02.01- About Section
+      03.02.02- Services Section
+      03.02.03- Stats Section
+      03.02.04- Portfolio Section
+      03.02.05- Testimonials Section
+      03.02.06- Blog Section
+      03.02.07- Contact Section
+    03.03- Footer
+  04- Responsive Styles
+    04.01- Screen width from 0576px
+      04.01.01- Main Styles
+        04.01.01.01- Main Content
+          04.01.01.01.01- Portfolio Section
+    04.02- Screen width from 0768px
+      04.02.01- Main Styles
+        04.02.01.01- Header
+        04.02.01.02- Main Content
+          04.02.01.02.01- Services Section
+          04.02.01.02.02- Portfolio Section
+          04.02.01.02.03- Testimonials Section
+    04.03- Screen width from 0992px
+      04.03.01- Main Styles
+        04.03.01.01- Header
+        04.03.01.02- Main Content
+          04.03.01.02.01- Portfolio Section
+          04.03.01.02.01- Testimonials Section
+    04.04- Screen width from 1025px
+      04.04.01- Main Styles
+        04.04.01.01- Main Content
+    04.05- Screen width from 1200px
+      04.05.01- Main Styles
+        04.05.01.01- Main Content
+          04.05.01.01.01- Testimonials Section
+*/
+
+/* ==============================
+  01- Reset Styles
+============================== */
+
+/* 01.01- Body
+============================== */
+body {
+  color: #4e4e4e;
+  background-color: #f5f5f5;
+}
+
+/* 01.02- Images
+============================== */
+img {
+  width: 100%;
+  display: block;
+}
+
+/* ==============================
+  02- Animations
+============================== */
+
+/* 02.01- Switch Titles
+============================== */
+
+@-webkit-keyframes switchTitles {
+  0% {
+    content: "D";
+  }
+
+  1% {
+    content: "De";
+  }
+
+  2% {
+    content: "Des";
+  }
+
+  3% {
+    content: "Desi";
+  }
+
+  4% {
+    content: "Desig";
+  }
+
+  5% {
+    content: "Design";
+  }
+
+  6% {
+    content: "Designe";
+  }
+
+  7% {
+    content: "Designer";
+  }
+
+  19% {
+    content: "Designer";
+  }
+
+  19.5% {
+    content: "Designe";
+  }
+
+  20% {
+    content: "Design";
+  }
+
+  20.5% {
+    content: "Desig";
+  }
+
+  21% {
+    content: "Desi";
+  }
+
+  21.5% {
+    content: "Des";
+  }
+
+  22% {
+    content: "De";
+  }
+
+  23% {
+    content: "Dev";
+  }
+
+  24% {
+    content: "Deve";
+  }
+
+  25% {
+    content: "Devel";
+  }
+
+  26% {
+    content: "Develo";
+  }
+
+  27% {
+    content: "Develop";
+  }
+
+  28% {
+    content: "Develope";
+  }
+
+  29% {
+    content: "Developer";
+  }
+
+  41% {
+    content: "Developer";
+  }
+
+  41.5% {
+    content: "Develope";
+  }
+
+  42% {
+    content: "Develop";
+  }
+
+  42.5% {
+    content: "Develo";
+  }
+
+  43% {
+    content: "Devel";
+  }
+
+  43.5% {
+    content: "Deve";
+  }
+
+  44% {
+    content: "Dev";
+  }
+
+  44.5% {
+    content: "De";
+  }
+
+  45% {
+    content: "D";
+  }
+
+  45.5% {
+    content: "";
+  }
+
+  46.5% {
+    content: "F";
+  }
+
+  47.5% {
+    content: "Fr";
+  }
+
+  48.5% {
+    content: "Fre";
+  }
+
+  49.5% {
+    content: "Free";
+  }
+
+  50.5% {
+    content: "Freel";
+  }
+
+  51.5% {
+    content: "Freela";
+  }
+
+  52.5% {
+    content: "Freelan";
+  }
+
+  53.5% {
+    content: "Freelanc";
+  }
+
+  54.5% {
+    content: "Freelance";
+  }
+
+  55.5% {
+    content: "Freelancer";
+  }
+
+  67.5% {
+    content: "Freelancer";
+  }
+
+  68% {
+    content: "Freelance";
+  }
+
+  68.5% {
+    content: "Freelanc";
+  }
+
+  69% {
+    content: "Freelan";
+  }
+
+  69.5% {
+    content: "Freela";
+  }
+
+  70% {
+    content: "Freel";
+  }
+
+  70.5% {
+    content: "Free";
+  }
+
+  71% {
+    content: "Fre";
+  }
+
+  71.5% {
+    content: "Fr";
+  }
+
+  72% {
+    content: "F";
+  }
+
+  72.5% {
+    content: "";
+  }
+
+  73.5% {
+    content: "P";
+  }
+
+  74.5% {
+    content: "Ph";
+  }
+
+  75.5% {
+    content: "Pho";
+  }
+
+  76.5% {
+    content: "Phot";
+  }
+
+  77.5% {
+    content: "Photo";
+  }
+
+  78.5% {
+    content: "Photog";
+  }
+
+  79.5% {
+    content: "Photogr";
+  }
+
+  80.5% {
+    content: "Photogra";
+  }
+
+  81.5% {
+    content: "Photograp";
+  }
+
+  82.5% {
+    content: "Photograph";
+  }
+
+  83.5% {
+    content: "Photographe";
+  }
+
+  84.5% {
+    content: "Photographer";
+  }
+
+  96.5% {
+    content: "Photographer";
+  }
+
+  96.75% {
+    content: "Photographe";
+  }
+
+  97% {
+    content: "Photograph";
+  }
+
+  97.25% {
+    content: "Photograp";
+  }
+
+  97.5% {
+    content: "Photogra";
+  }
+
+  97.75% {
+    content: "Photogr";
+  }
+
+  98% {
+    content: "Photog";
+  }
+
+  98.25% {
+    content: "Photo";
+  }
+
+  98.5% {
+    content: "Phot";
+  }
+
+  98.75% {
+    content: "Pho";
+  }
+
+  99% {
+    content: "Ph";
+  }
+
+  99.5% {
+    content: "P";
+  }
+
+  100% {
+    content: "";
+  }
+}
+
+@keyframes switchTitles {
+  0% {
+    content: "D";
+  }
+
+  1% {
+    content: "De";
+  }
+
+  2% {
+    content: "Des";
+  }
+
+  3% {
+    content: "Desi";
+  }
+
+  4% {
+    content: "Desig";
+  }
+
+  5% {
+    content: "Design";
+  }
+
+  6% {
+    content: "Designe";
+  }
+
+  7% {
+    content: "Designer";
+  }
+
+  19% {
+    content: "Designer";
+  }
+
+  19.5% {
+    content: "Designe";
+  }
+
+  20% {
+    content: "Design";
+  }
+
+  20.5% {
+    content: "Desig";
+  }
+
+  21% {
+    content: "Desi";
+  }
+
+  21.5% {
+    content: "Des";
+  }
+
+  22% {
+    content: "De";
+  }
+
+  23% {
+    content: "Dev";
+  }
+
+  24% {
+    content: "Deve";
+  }
+
+  25% {
+    content: "Devel";
+  }
+
+  26% {
+    content: "Develo";
+  }
+
+  27% {
+    content: "Develop";
+  }
+
+  28% {
+    content: "Develope";
+  }
+
+  29% {
+    content: "Developer";
+  }
+
+  41% {
+    content: "Developer";
+  }
+
+  41.5% {
+    content: "Develope";
+  }
+
+  42% {
+    content: "Develop";
+  }
+
+  42.5% {
+    content: "Develo";
+  }
+
+  43% {
+    content: "Devel";
+  }
+
+  43.5% {
+    content: "Deve";
+  }
+
+  44% {
+    content: "Dev";
+  }
+
+  44.5% {
+    content: "De";
+  }
+
+  45% {
+    content: "D";
+  }
+
+  45.5% {
+    content: "";
+  }
+
+  46.5% {
+    content: "F";
+  }
+
+  47.5% {
+    content: "Fr";
+  }
+
+  48.5% {
+    content: "Fre";
+  }
+
+  49.5% {
+    content: "Free";
+  }
+
+  50.5% {
+    content: "Freel";
+  }
+
+  51.5% {
+    content: "Freela";
+  }
+
+  52.5% {
+    content: "Freelan";
+  }
+
+  53.5% {
+    content: "Freelanc";
+  }
+
+  54.5% {
+    content: "Freelance";
+  }
+
+  55.5% {
+    content: "Freelancer";
+  }
+
+  67.5% {
+    content: "Freelancer";
+  }
+
+  68% {
+    content: "Freelance";
+  }
+
+  68.5% {
+    content: "Freelanc";
+  }
+
+  69% {
+    content: "Freelan";
+  }
+
+  69.5% {
+    content: "Freela";
+  }
+
+  70% {
+    content: "Freel";
+  }
+
+  70.5% {
+    content: "Free";
+  }
+
+  71% {
+    content: "Fre";
+  }
+
+  71.5% {
+    content: "Fr";
+  }
+
+  72% {
+    content: "F";
+  }
+
+  72.5% {
+    content: "";
+  }
+
+  73.5% {
+    content: "P";
+  }
+
+  74.5% {
+    content: "Ph";
+  }
+
+  75.5% {
+    content: "Pho";
+  }
+
+  76.5% {
+    content: "Phot";
+  }
+
+  77.5% {
+    content: "Photo";
+  }
+
+  78.5% {
+    content: "Photog";
+  }
+
+  79.5% {
+    content: "Photogr";
+  }
+
+  80.5% {
+    content: "Photogra";
+  }
+
+  81.5% {
+    content: "Photograp";
+  }
+
+  82.5% {
+    content: "Photograph";
+  }
+
+  83.5% {
+    content: "Photographe";
+  }
+
+  84.5% {
+    content: "Photographer";
+  }
+
+  96.5% {
+    content: "Photographer";
+  }
+
+  96.75% {
+    content: "Photographe";
+  }
+
+  97% {
+    content: "Photograph";
+  }
+
+  97.25% {
+    content: "Photograp";
+  }
+
+  97.5% {
+    content: "Photogra";
+  }
+
+  97.75% {
+    content: "Photogr";
+  }
+
+  98% {
+    content: "Photog";
+  }
+
+  98.25% {
+    content: "Photo";
+  }
+
+  98.5% {
+    content: "Phot";
+  }
+
+  98.75% {
+    content: "Pho";
+  }
+
+  99% {
+    content: "Ph";
+  }
+
+  99.5% {
+    content: "P";
+  }
+
+  100% {
+    content: "";
+  }
+}
+
+@-webkit-keyframes typingBar {
+  0% {
+    opacity: 1;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  9% {
+    opacity: 0;
+  }
+
+  11% {
+    opacity: 1;
+  }
+
+  13% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  17% {
+    opacity: 0;
+  }
+
+  19% {
+    opacity: 1;
+  }
+
+  29% {
+    opacity: 1;
+  }
+
+  31% {
+    opacity: 0;
+  }
+
+  33% {
+    opacity: 1;
+  }
+
+  35% {
+    opacity: 0;
+  }
+
+  37% {
+    opacity: 1;
+  }
+
+  39% {
+    opacity: 0;
+  }
+
+  41% {
+    opacity: 1;
+  }
+
+  55.5% {
+    opacity: 1;
+  }
+
+  57.5% {
+    opacity: 0;
+  }
+
+  59.5% {
+    opacity: 1;
+  }
+
+  61.5% {
+    opacity: 0;
+  }
+
+  63.5% {
+    opacity: 1;
+  }
+
+  65.5% {
+    opacity: 0;
+  }
+
+  67.5% {
+    opacity: 1;
+  }
+
+  84.5% {
+    opacity: 1;
+  }
+
+  86.5% {
+    opacity: 0;
+  }
+
+  88.5% {
+    opacity: 1;
+  }
+
+  90.5% {
+    opacity: 0;
+  }
+
+  92.5% {
+    opacity: 1;
+  }
+
+  94.5% {
+    opacity: 0;
+  }
+
+  96.5% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes typingBar {
+  0% {
+    opacity: 1;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  9% {
+    opacity: 0;
+  }
+
+  11% {
+    opacity: 1;
+  }
+
+  13% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  17% {
+    opacity: 0;
+  }
+
+  19% {
+    opacity: 1;
+  }
+
+  29% {
+    opacity: 1;
+  }
+
+  31% {
+    opacity: 0;
+  }
+
+  33% {
+    opacity: 1;
+  }
+
+  35% {
+    opacity: 0;
+  }
+
+  37% {
+    opacity: 1;
+  }
+
+  39% {
+    opacity: 0;
+  }
+
+  41% {
+    opacity: 1;
+  }
+
+  55.5% {
+    opacity: 1;
+  }
+
+  57.5% {
+    opacity: 0;
+  }
+
+  59.5% {
+    opacity: 1;
+  }
+
+  61.5% {
+    opacity: 0;
+  }
+
+  63.5% {
+    opacity: 1;
+  }
+
+  65.5% {
+    opacity: 0;
+  }
+
+  67.5% {
+    opacity: 1;
+  }
+
+  84.5% {
+    opacity: 1;
+  }
+
+  86.5% {
+    opacity: 0;
+  }
+
+  88.5% {
+    opacity: 1;
+  }
+
+  90.5% {
+    opacity: 0;
+  }
+
+  92.5% {
+    opacity: 1;
+  }
+
+  94.5% {
+    opacity: 0;
+  }
+
+  96.5% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ==============================
+  03- Main Styles
+============================== */
+
+/* 03.01- Header
+============================== */
+
+#header {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.55)),
+      to(rgba(0, 0, 0, 0.55))
+    ),
+    url(../imgs/hero-bg.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(../imgs/hero-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(../imgs/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#header .title {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+#header .sub-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+#header .sub-title::before {
+  content: "";
+  -webkit-animation: switchTitles 18s linear infinite;
+  animation: switchTitles 18s linear infinite;
+}
+
+#header .sub-title .bar {
+  -webkit-animation: typingBar 18s linear infinite;
+  animation: typingBar 18s linear infinite;
+}
+
+#header .navbar {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#header .navbar .navbar-brand {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+#header .navbar .navbar-toggler {
+  -webkit-transform: translateX(8px);
+  -ms-transform: translateX(8px);
+  transform: translateX(8px);
+}
+
+#header .navbar .bars {
+  width: 20px;
+  height: 2px;
+}
+
+#header .navbar .bars::before,
+#header .navbar .bars::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+#header .navbar .bars::before {
+  top: -7px;
+}
+
+#header .navbar .bars::after {
+  top: 7px;
+}
+
+#header .modal-header {
+  background-color: rgba(136, 136, 136, 0.5);
+}
+
+#header .modal-header button {
+  background-color: #494949;
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+#header .modal-body {
+  color: #4e4e4e;
+  background-color: white;
+}
+
+#header .modal-body li {
+  font-size: 15px;
+}
+
+#header .modal-body a {
+  padding: 10px 20px;
+  letter-spacing: 0.4px;
+}
+
+#header .modal-body a.active {
+  color: #0078ff;
+}
+
+body .modal-backdrop {
+  --bs-backdrop-zindex: 1;
+  --bs-backdrop-bg: #000;
+  --bs-backdrop-opacity: 0.6;
+}
+
+/* 03.02- Main Content
+============================== */
+
+#about,
+#services,
+#portfolio,
+#blog,
+#contact {
+  scroll-margin-top: 70px;
+}
+
+#services .heading,
+#portfolio .heading,
+#blog .heading {
+  color: #1e1e1e;
+  font-size: 3rem;
+}
+
+#services .sub-title,
+#portfolio .sub-title,
+#blog .sub-title {
+  margin-bottom: 85px;
+}
+
+#services .sub-title::after,
+#portfolio .sub-title::after,
+#blog .sub-title::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  position: absolute;
+  top: calc(100% + 16px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* 03.02.01- About Section
+============================== */
+
+#about .container {
+  padding-top: 64px;
+}
+
+#about .container > .row {
+  padding: 64px 8px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06),
+    0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#about img {
+  min-width: 106px;
+  max-width: 150px;
+  margin-left: 10px;
+  margin-bottom: 32px;
+}
+
+#about address .fw-semibold,
+#about .skills h3 {
+  font-size: 1.1rem;
+  color: #1e1e1e;
+  margin-bottom: 16px;
+}
+
+#about .skills h3 {
+  line-height: 1.5;
+}
+
+#about .skills .skill {
+  margin-bottom: 19px;
+}
+
+#about .skills .bar {
+  height: 0.7rem;
+  background-color: #cde1f8;
+}
+
+#about .skills .bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #0078ff;
+}
+
+#about .skills .bar.fill-50::after {
+  width: 50%;
+}
+
+#about .skills .bar.fill-75::after {
+  width: 75%;
+}
+
+#about .skills .bar.fill-85::after {
+  width: 85%;
+}
+
+#about .skills .bar.fill-90::after {
+  width: 90%;
+}
+
+#about .heading {
+  color: #1e1e1e;
+  font-size: 32px;
+  margin-bottom: 37px;
+}
+
+#about .heading::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #0078ff;
+  margin-top: 8px;
+}
+
+#about .heading ~ p {
+  font-size: 1.25rem;
+}
+
+/* 03.02.02- Services Section
+============================== */
+
+#services .service {
+  padding: 30px 1.3rem 2.5rem;
+  -webkit-box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#services .service:hover .icon {
+  color: white;
+  background-color: #0078ff;
+  border-color: #cde1f8;
+}
+
+#services .icon {
+  width: 120px;
+  aspect-ratio: 1;
+  border: 10px solid #0078ff;
+  -webkit-transition: color 500ms, background-color 500ms, border-color 500ms;
+  -o-transition: color 500ms, background-color 500ms, border-color 500ms;
+  transition: color 500ms, background-color 500ms, border-color 500ms;
+}
+
+#services .title {
+  color: #1e1e1e;
+  font-size: 1.4rem;
+  padding-bottom: 0.4rem;
+  margin-top: calc(0.4rem + 7px);
+}
+
+/* 03.02.03- Stats Section
+============================== */
+
+#stats {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 119, 255, 0.7)),
+      to(rgba(0, 119, 255, 0.7))
+    ),
+    url(../imgs/counters-bg.jpg);
+  background-image: -o-linear-gradient(
+      rgba(0, 119, 255, 0.7),
+      rgba(0, 119, 255, 0.7)
+    ),
+    url(../imgs/counters-bg.jpg);
+  background-image: linear-gradient(
+      rgba(0, 119, 255, 0.7),
+      rgba(0, 119, 255, 0.7)
+    ),
+    url(../imgs/counters-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#stats .container {
+  padding-block: 128px;
+}
+
+#stats .icon {
+  width: 80px;
+  aspect-ratio: 1;
+  border: 10px solid #cde1f8;
+  margin-top: 14px;
+}
+
+#stats .stat {
+  font-size: 2rem;
+  margin-top: 6px;
+}
+
+/* 03.02.04- Portfolio Section
+============================== */
+
+#portfolio .container {
+  padding-top: 64px;
+}
+
+#portfolio figure {
+  -webkit-box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio figure img {
+  -webkit-transition: scale 1000ms;
+  -o-transition: scale 1000ms;
+  transition: scale 1000ms;
+  cursor: pointer;
+}
+
+#portfolio figure:hover img {
+  scale: 1.3;
+}
+
+#portfolio figcaption {
+  padding: 2rem 3% calc(1rem + 10px) 4%;
+}
+
+#portfolio .title {
+  color: #1e1e1e;
+  font-size: 1.2rem;
+}
+
+#portfolio p:not(.sub-title) {
+  font-size: 0.8rem;
+}
+
+#portfolio .branch {
+  color: #0078ff;
+}
+
+#portfolio .icon {
+  width: 40px;
+  aspect-ratio: 1;
+  border: #0078ff solid 3px;
+}
+
+#portfolio .icon:hover {
+  color: #0078ff;
+}
+
+/* 03.02.05- Testimonials Section
+============================== */
+
+#testimonials {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 119, 255, 0.7)),
+      to(rgba(0, 119, 255, 0.7))
+    ),
+    url(../imgs/overlay-bg.jpg);
+  background-image: -o-linear-gradient(
+      rgba(0, 119, 255, 0.7),
+      rgba(0, 119, 255, 0.7)
+    ),
+    url(../imgs/overlay-bg.jpg);
+  background-image: linear-gradient(
+      rgba(0, 119, 255, 0.7),
+      rgba(0, 119, 255, 0.7)
+    ),
+    url(../imgs/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-block: 128px 134px;
+}
+
+#testimonials img {
+  width: 150px;
+  margin-top: 16px;
+}
+
+#testimonials .title {
+  font-size: 1.4rem;
+  margin-block: 1rem;
+  line-height: 1.5;
+}
+
+#testimonials p {
+  font-size: 1.25rem;
+}
+
+#testimonials .carousel-indicators {
+  gap: 8px;
+  margin-top: 6px;
+}
+
+#testimonials .carousel-indicators > button {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#testimonials .carousel-indicators > button.active {
+  background-color: white;
+}
+
+/* 03.02.06- Blog Section
+============================== */
+
+#blog .container {
+  padding-block: 64px;
+}
+
+#blog li > figure {
+  -webkit-box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+#blog h3 {
+  padding: 8px 15px;
+  background-color: #0078ff;
+  font-size: 0.7rem;
+  letter-spacing: 0.1px;
+  border-radius: 4px;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+
+#blog figcaption a {
+  color: #1e1e1e;
+  font-size: 1.3rem;
+  margin-top: 0.6rem;
+  line-height: 1.2;
+  -webkit-transition: color 500ms;
+  -o-transition: color 500ms;
+  transition: color 500ms;
+}
+
+#blog figcaption a:hover {
+  color: #0078ff;
+}
+
+#blog figure footer {
+  background-color: rgba(33, 37, 41, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.175);
+  padding: 8px 16px;
+}
+
+#blog figure footer img {
+  width: 32px;
+  aspect-ratio: 1;
+}
+
+#blog figure footer figcaption {
+  color: #1e1e1e;
+}
+
+/* 03.02.07- Contact Section
+============================== */
+
+#contact {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 119, 255, 0.7)),
+      to(rgba(0, 119, 255, 0.7))
+    ),
+    url(../imgs/overlay-bg.jpg);
+  background-image: -o-linear-gradient(
+      rgba(0, 119, 255, 0.7),
+      rgba(0, 119, 255, 0.7)
+    ),
+    url(../imgs/overlay-bg.jpg);
+  background-image: linear-gradient(
+      rgba(0, 119, 255, 0.7),
+      rgba(0, 119, 255, 0.7)
+    ),
+    url(../imgs/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 128px;
+  -webkit-box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+#contact .heading {
+  font-size: 32px;
+  color: #1e1e1e;
+}
+
+#contact .heading::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #0078ff;
+  margin-block: 8px 28px;
+}
+
+#contact input,
+#contact textarea {
+  font-size: 14px;
+  padding-inline: 15px;
+}
+
+#contact input {
+  padding-block: 10px;
+}
+
+#contact textarea {
+  padding-block: 12px;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #0078ff;
+}
+
+#contact button[type="submit"] {
+  color: white;
+  background: #0078ff;
+  padding: 10px 24px;
+  font-size: 1.2rem;
+  -webkit-transition: background-color 400ms, -webkit-box-shadow 400ms;
+  transition: background-color 400ms, -webkit-box-shadow 400ms;
+  -o-transition: background-color 400ms, box-shadow 400ms;
+  transition: background-color 400ms, box-shadow 400ms;
+  transition: background-color 400ms, box-shadow 400ms, -webkit-box-shadow 400ms;
+}
+
+#contact button[type="submit"]:hover {
+  background-color: #3393ff;
+  -webkit-box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #cde1f8;
+}
+
+#contact .paragraph {
+  padding-top: 9px;
+  font-size: 20px;
+  color: #4e4e4e;
+  margin-bottom: 20px;
+}
+
+#contact p > svg {
+  color: #0078ff;
+}
+
+#contact .icon {
+  width: 46px;
+  aspect-ratio: 1;
+  border: #0078ff solid 3px;
+  color: #1e1e1e;
+  padding: 5px;
+  margin-bottom: 21px;
+  -webkit-transition: color 500ms, background-color 500ms, border-color 500ms;
+  -o-transition: color 500ms, background-color 500ms, border-color 500ms;
+  transition: color 500ms, background-color 500ms, border-color 500ms;
+}
+
+#contact .icon:hover {
+  color: white;
+  background-color: #0078ff;
+  border-color: #cde1f8;
+}
+
+/* 03.03- Footer
+============================== */
+
+#footer {
+  background-color: #0062d3;
+  padding: 25px 16px;
+}
+
+/* ==============================
+  04- Responsive Styles
+============================== */
+
+/* 04.01- Screen width from 0576px
+============================== */
+@media screen and (min-width: 576px) {
+  /* 04.01.01- Main Styles
+  ============================== */
+
+  /* ========== 04.01.01.01- Main Content ========== */
+
+  /* ===== 04.01.01.01.01- Portfolio Section ===== */
+
+  #portfolio .icon {
+    margin-top: 10px;
+  }
+}
+
+/* 04.02- Screen width from 0768px
+============================== */
+@media screen and (min-width: 768px) {
+  /* 04.02.01- Main Styles
+  ============================== */
+
+  /* ========== 04.02.01.01- Header ========== */
+
+  #header .title {
+    font-size: 72px;
+  }
+
+  #header .sub-title {
+    font-size: 40px;
+  }
+
+  /* ========== 04.02.01.02- Main Content ========== */
+
+  /* ===== 04.02.01.02.01- Services Section ===== */
+
+  #services .service {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+
+  /* ===== 04.02.01.02.02- Portfolio Section ===== */
+
+  #portfolio figcaption {
+    padding-bottom: 16px;
+  }
+
+  /* ===== 04.02.01.02.03- Testimonials Section ===== */
+
+  #testimonials p {
+    padding-inline: 80px;
+  }
+}
+
+/* 04.03- Screen width from 0992px
+============================== */
+@media screen and (min-width: 992px) {
+  /* 04.03.01- Main Styles
+  ============================== */
+
+  /* ========== 04.03.01.01- Header ========== */
+
+  #header .modal {
+    position: static;
+  }
+
+  #header .modal-body {
+    background-color: transparent;
+    color: white;
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+  }
+
+  #header .modal-body a:not(.dropdown-toggle):not(.dropdown-item) {
+    padding-inline: 15px;
+    font-size: 16px;
+    position: relative;
+  }
+
+  #header .modal-body a.active {
+    color: white;
+  }
+
+  #header .modal-body a:not(.dropdown-toggle):not(.dropdown-item)::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: 4px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    -webkit-transition: width 300ms;
+    -o-transition: width 300ms;
+    transition: width 300ms;
+  }
+
+  body:not(:has(:target)) #header .modal-body a[href="#header"]::after,
+  body:has(#header:target) #header .modal-body a[href="#header"]::after,
+  body:has(#about:target) #header .modal-body a[href="#about"]::after,
+  body:has(#services:target) #header .modal-body a[href="#services"]::after,
+  body:has(#portfolio:target) #header .modal-body a[href="#portfolio"]::after,
+  body:has(#blog:target) #header .modal-body a[href="#blog"]::after,
+  body:has(#contact:target) #header .modal-body a[href="#contact"]::after {
+    width: calc(89% - 2 * 15px);
+  }
+
+  /* ========== 04.03.01.02- Main Content ========== */
+
+  /* ===== 04.03.01.02.01- Portfolio Section ===== */
+
+  #portfolio figcaption {
+    padding-bottom: 26px;
+  }
+
+  /* ===== 04.03.01.02.01- Testimonials Section ===== */
+
+  #testimonials p {
+    padding-inline: 128px;
+  }
+}
+
+/* 04.04- Screen width from 1025px
+============================== */
+@media screen and (min-width: 1025px) {
+  /* 04.04.01- Main Styles
+  ============================== */
+
+  /* ========== 04.04.01.01- Main Content ========== */
+
+  #header,
+  #stats,
+  #testimonials,
+  #contact {
+    background-attachment: fixed;
+  }
+}
+
+/* 04.05- Screen width from 1200px
+============================== */
+@media screen and (min-width: 1200px) {
+  /* 04.05.01- Main Styles
+  ============================== */
+
+  /* ========== 04.05.01.01- Main Content ========== */
+
+  /* ===== 04.05.01.01.01- Testimonials Section ===== */
+
+  #testimonials p {
+    padding-inline: 208px;
+  }
+}
